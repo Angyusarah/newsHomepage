@@ -194,6 +194,7 @@ hr{
     padding: 1.5rem;
     max-width: 100vw;
     max-height: auto;
+    position: relative;
   }
 
   p{
@@ -218,6 +219,20 @@ hr{
   .menu{
     display: none;
   } 
+
+  .active{
+    background-color: white;
+    position: absolute;
+    right: 0;
+    width: 70vw;
+    padding: 2rem;
+  }
+
+  .active li{
+    font-size: 1rem;
+    margin-block: 1.2rem;
+    text-align: left;
+  }
 
   .grid-container{
     display: block;
